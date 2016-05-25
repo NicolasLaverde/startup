@@ -1,0 +1,55 @@
+Pseudoclass:
+
+Link related pseudoClass:
+
+A pseudoclass in css3 define a special state of an element, for example
+when we want to change the color of a link, we use the selector of the 
+tag <a> and 4 pseudoclasses basic to change its color in 4 different 
+states, these are:
+
+   :link{ define the rules that happen when the link is unvissited}
+   :visited{ define the rules that happen when link is visited}
+   :hover {define the rules that happen when the pointer is over the link}
+   :active{ define the rules that happen when the link is active, or
+      the rules happen just after user clicks it}
+
+"Perhaps the most confusion-causing link-related pseudo selector. 
+Aren't all <a> links? Well not if they don't have an href attribute. 
+This selects only those that do"
+source: https://css-tricks.com/pseudo-class-selectors/
+example: http://www.w3schools.com/css/tryit.asp?filename=trycss_link
+
+Input Related pseudoclass:
+
+:focus   -> defines the rules occurs when an input element or link is 
+focus (link by keyboard)
+:target  -> styles currents active target elements
+example: http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target
+:enable  -> this matches every enable element and style them
+:disable  -> selects inputs that have the disable attribute
+:checked  -> selects all inputs of type radio buttons that are checked
+
+example checked: http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_checked
+
+other:
+
+:root { select the root element}
+:first-child { select every element that is the first child of 
+some element }
+example: http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild
+
+for known all pseudoclass visit: https://css-tricks.com/pseudo-class-selectors/
+
+pseudo-elements:
+ it can be used to insert new content before or after the current content
+ style the first letter or the first line of some element.
+
+
+::first-line {add a special effect to the first line of a text}
+::first.letter { add a special style to the first letter of a text.}
+::before {  inserts content before the content of an element.}
+::after{inserts content after the content of an element}
+::selection {matches the portion of an element that is selected by a user.}
+
+source: http://www.w3schools.com/css/css_pseudo_elements.asp
+	

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> SignUp form</title>
+    <style>	
+		label {
+  			width: 8%;
+  			float: left;
+		}
+		#other{
+			display:none;
+		}
+        input[type=button],input[type=reset],input[type=submit]
+        {-webkit-appearance:button;
+            cursor:pointer
+        }
+        input[type=submit] , input[type=reset] {
+            padding: 5px;
+            width: 10%;
+            height: 7%;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 9px;
+        }
+        .mouseOver:hover{
+                background-color: #4CAF50;
+        }
+        input[type='text']:focus{
+            background: #F2E4AE;
+        }
+
+
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script >
+    	$(document).on('ready',function(){
+
+    		$('#favoriteSport').change(function(){
+    			// val for get the selected option
+    			var selected= $('#favoriteSport option:selected').val();
+	    		if(selected==='7'){
+	    			$('#other').css('display','inline');
+	    		}
+	    		else{
+	    			$('#other').css('display','none');
+	    		}
+    		});
+    		$('#send').on('click',function(event){
+    			if($('#firstName').val()===''){
+    				alert('The first Name is required');
+    				//focus() method javascript for focus an element after something happend
+    				$('#firstName').focus();
+    			}
+    			else if($('#lastName').val()===''){
+    				alert('The Last Name is required');
+    				//focus() method javascript for focus an element after something happend
+    				$('#lastName').focus();
+    				
+    			}
+
+    			else if($('#email').val()===''){
+    				alert('The email is required');
+    				//focus() method javascript for focus an element after something happend
+    				$('#email').focus();
+    				
+    			}
+    			else if($('#bDay').val()===''){
+    				alert('The BD is required');
+    				//focus() method javascript for focus an element after something happend
+    				$('#bDay').focus();
+    				
+    			}
+    			
+    			else if($('#favoriteSport option:selected').val()==='none'){
+    				alert('The favorite sport is required');
+    				$('#favoriteSport').focus();
+    				
+    			}
+    			else if($('#favoriteSport option:selected').val()==='7' && $('#otherSport').val()===''){
+    				alert('what other sport do you like?')
+    				$('#otherSport').focus();
+    			}
+    			else if($('#briefBioS').val()===''){
+    				alert('The small bio is required');
+    				$('#briefBioS').focus();	
+    			}
+    			
+    			else{
+
+	    			alert('the Info is save');
+	    		
+    			}
+    			event.preventDefault();	
+    			
+    		})
+    		
+    	});
+    </script>
+</head>
+<body>
+
+<h2> fill the form sign up below here  </h2>
+
+<form name='Sign up' id='signUpForm'>
+	<div>
+	    <label>First Name:</label><input type="text" name='firstName' id='firstName' value=''/>
+	    <br><br>
+    </div>
+    <div>
+	   <label> Last Name: </label>
+	   <input type='text' name='lastName' id='lastName' value=''/>
+	   <br><br>
+   </div>
+   <div>
+	   <label>email</label>
+	   <input type='email' name='email' id='email' value=''/>
+	   <br><br>
+   </div>
+    
+    <div>
+	   <label> Birthday</label>
+	   <input type='date' name='bDay' id='bDay' value=''>
+	    <br><br>
+    </div>
+
+    <div>
+    	<label> Select your favorite sport:</label>
+    	<select name 'favoriteSport' id='favoriteSport'>
+    		<option value='1' > Football </option>
+    		<option value='2' > Tennis </option>
+    		<option value='3' > Ping Pong </option>
+    		<option value='4' > Basketball </option>
+    		<option value='5' > Swimming </option>
+    		<option value='6' > Volleyball </option>
+    		<option value='7' > Other </option>
+    		<option value='none' selected >-----------</option>
+
+    	</select>
+
+    	<br><br><br>
+    </div>
+    <div id='other'>
+    <label> other Sport: </label>
+    	<input type='text' id='otherSport' value=''>
+		<br><br>
+    </div>
+    <div>
+    	<label> Small Bio: </label>
+    	<textArea cols='40%' rows='5%' name='briefBio' id='briefBioS' value=''></textarea>
+    	<br><br>
+    </div>
+
+    <div>
+    	<input type="submit" value='Submit' id='send' class='mouseOver'> <input type='reset' value='Clear' id='clear' class='mouseOver'>
+    </div>
+</form>
+
+</body>
+</html>
