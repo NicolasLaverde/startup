@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Box model test</title>
+    <style>
+        .tradittional {
+            background-color: #01DFD7;
+            width: 250px;
+            height: 120px;
+            border-radius: 10px;
+            border: 10px solid #585858;
+            padding: 20px;
+        }
+        
+        .box_Sizing {
+            background-color: #A9BCF5;
+            box-sizing: border-box;
+            width: 250px;
+            height: 120px;
+            border-radius: 10px;
+            border: 10px solid #F781BE;
+            padding: 20px;
+        }
+
+        .box_sizingContent{
+            background-color: #122A0A;
+            box-sizing: content-box;
+            width: 250px;
+            height: 120px;
+            border-radius: 10px;
+            border: 10px solid #2A120A;
+            padding: 20px;   
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="tradittional">
+        Tradittional Box
+    </div>
+    <div class="box_Sizing">
+        border-box
+    </div>
+
+    <div class='box_sizingContent'>
+        content-box
+    </div>
+</body>
+</html>
