@@ -9,7 +9,9 @@ html,body{
 	color:white;
 	font-size: 14px;
 	font-family: arial;
-	height: 100%
+	height: 100%;
+	text-align: center;
+
 }
 .principl{
 	width: 80%;
@@ -31,7 +33,6 @@ html,body{
 	width: 100%;
 	height: 55%;
 	padding-top:3px;
-	display: inline-block;
 	margin-top: 5px;
 }
 .navegation{
@@ -39,6 +40,7 @@ html,body{
 	height: 100%;
 	padding:0px;
 	margin-left: 4px;
+
 	float:left;
 }
 
@@ -59,10 +61,11 @@ div .aside{
 	width: 25%;
 	height: 100%;
 	padding:0px;
-	float:right;
+	display: inline-block;
 	padding-left: 15px;
 	margin-left: 5px;
 	margin-right: 5px;
+	float:right;
 
 }
 
@@ -91,8 +94,8 @@ div .aside{
 	padding-bottom:5x; 
 	margin: 5px 5px 10px 5px;
 
-
 }
+
 
 *[class*='a']{
 	background: #0B173B
