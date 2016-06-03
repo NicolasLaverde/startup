@@ -1,0 +1,117 @@
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes bigger{
+	from{
+		width: 170px;
+		height: 40px;
+	}
+	to{
+		width: 190px;
+		height: 50px;
+	}
+}
+html, body{
+	font-size: 16px;
+	margin:-21px 0;
+	padding:0;
+	border: 0;
+	height: 100%;
+	font-family: Lato;
+	color: #3a3a3a;
+
+}
+body {margin:0;padding:0;}
+h1{
+	color:darkgreen;
+}
+.container{
+	height: 100%;
+}
+.centralPage{
+	height: 600px;
+	width: 90%;
+	margin : 20px auto;
+	border :2px orange solid;
+	background: #F7F8E0;
+
+}
+.head{
+	box-shadow: 3px 3px 3px #3a3a3a;
+	height: 100px;
+
+}
+.head , .foot{
+	background: #3ADF00;
+	width: 90%;
+	margin: auto;
+
+}
+.foot{
+
+	height: 100px;
+	margin-top: 40px;
+	box-shadow: 4px -4px 3px #3a3a3a;
+}
+.section{
+	text-align: center;
+	font-size: 1.1em;
+}
+.hidden{
+	display:none;
+	animation-play-state: paused;
+}
+.fadeIn{
+	opacity: 0;
+	text-align: left;
+	font-size: 1.4em;
+	color:black;
+	width: 115px;
+}
+.sectionHW{
+	text-align: center;
+	/* keyframe , time, speed curve */
+	animation: fadeIn 5s ease-in 1 forwards;
+	background: #E6E6E6;
+	width: 200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color:#31B404;
+}
+#sectionJson{
+	color:white;
+	font-size: 1.1em;
+	width: 800px;
+	height: 100px;
+	background: #04B4AE;
+	margin :0 auto;
+}
+.buttons{
+	background: #2EFEC8;
+	width: 160px;
+	height: 40px;
+	border-radius:10px;
+	color: white;
+	
+}
+
+.divButton{
+	margin :0 auto;
+	width: 12%;
+	height: 100px;
+	font-size: 1.2em;
+
+}
+.buttons:hover{
+	background: #58FA58;
+	animation: bigger 3s ease-in-out alternate ;
+
+}
