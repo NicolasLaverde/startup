@@ -37,8 +37,8 @@ window.onload=function(){
 				console.log(text.length);
 				for(var i=0; i<text.length;i++){
 					console.log(i);
-					var li = document.createElement('li');
-				 
+					var li = document.createElement('li')
+;				 
 				 li.appendChild(document.createTextNode(text[i].full_name));
 	      		 ol.appendChild(li);
 				}
