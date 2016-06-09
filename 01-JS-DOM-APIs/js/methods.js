@@ -74,14 +74,13 @@ window.onload=function(){
 
 	function fadeIn(){
 		let sectionHidden = document.getElementById('sectionHidden');
-		if(sectionHidden !==null){
-			
-			if(sectionHidden.classList.contains('hidden')){
-				sectionHidden.classList.remove('hidden');
+			if(sectionHidden !==null){
+				
+				if(sectionHidden.classList.contains('hidden')){
+					sectionHidden.classList.remove('hidden');
+				}
+
 			}
-
-		}
-
 		}
 
 }

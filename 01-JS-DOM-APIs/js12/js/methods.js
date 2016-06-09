@@ -1,9 +1,12 @@
 let dataMatrix=[];
+let Auxiliar=[];
 //3 basic headers table
-let headerstable=['Name', 'LastName', 'Age'];
+let tableheaders=['Name', 'LastName', 'Age'];
+let table = document.createElement('table');
 window.onload=function(){
 	let butonSave = document.getElementById('butonSave');
-	
+	/* create headers*/
+		Headers();
 	/* Rigth here I declared an EventListener for my first button Save Data..
 		This event Simply gets the values of the 3 inputs tag on my form. and add to a dataMatrix, that is my database structure.
 		This event do a basic validation . alerts when something is void... or something like that,
@@ -22,9 +25,9 @@ window.onload=function(){
 				return false;
 			}
 		}
-		dataMatrix.push(dataInput);
-		console.log('long matrix' +dataMatrix.length);
-		console.log(dataMatrix);	
+		Auxiliar.push(dataInput);
+		console.log('long matrix' +Auxiliar.length);
+		console.log(Auxiliar);	
 		
 		for(var i=0; i<dataAux.length;i++){
 			dataAux[i].value='';
@@ -37,55 +40,60 @@ window.onload=function(){
 	let butonSend = document.getElementById('butonSend');
 	butonSend.addEventListener('click', function(e){
 		e.preventDefault();
-		if(dataMatrix!==undefined && dataMatrix!==null 
-			&& dataMatrix[0]!==undefined && dataMatrix[0]!== null){
-			createTable(dataMatrix,headerstable);
+		if((Auxiliar!==undefined && Auxiliar!==null && Auxiliar[0]!==undefined && Auxiliar[0]!== null)){
+			dataMatrix = Auxiliar.slice(0);
+			createTable(tableheaders);
+			Auxiliar=[];
 		}
-		else{
+		else if(!(dataMatrix!==undefined && dataMatrix!==null && dataMatrix[0]!==undefined && dataMatrix[0]!== null)){
 			alert('There is no Data');
 		}
 
 	});
 
-	/* This method do all the magic creation of the table. using createElement, I create elemnt table, the headers cells with tag th, 
-		multiples tr depending of how many registers has the dataMatrix
-	   , 3 th for each person (I mean name, lastname ,age), 
-	   Use method appendChild to connect with its parent. in this case, the tag tableDiv is the parent of table, grandparent of tr.. and so on
+	/* This method do all the magic creation of the table. using createElement, I create elemnt table, the headers cells with tag th, multiples tr depending of how many registers has the dataMatrix
+	   , 3 th for each person (I mean name, lastname ,age), Use method appendChild to connect with its parent. in this case, the tag tableDiv is the parent of table, grandparent of tr.. and so on
 	*/
-	function createTable(matrix){
-		console.log(matrix[0].length);
-		console.log(matrix.length);
-		let table = document.createElement('table');
-		table.className='table-fill';
-		let tableDiv = document.getElementsByClassName('tableDiv')[0];
 
-		/* headers*/
+	function Headers(){
+		let thead = document.createElement('thead');
 		let row= document.createElement('tr');
 		row.className='tr-fill';
-		for(var k=0; k<headerstable.length;k++){
+		for(var k=0; k<tableheaders.length;k++){
 			let column = document.createElement('th');
-			column.innerHTML=headerstable[k];
+			column.innerHTML=tableheaders[k];
 			column.className='th-fill';
 			row.appendChild(column);
 		}
-		table.appendChild(row);
+		thead.appendChild(row);
+		table.appendChild(thead);
+	}
 
-		/* Items*/
-
-		for(var i=0; i<matrix.length;i++){
+	function Content(){
+		let row;
+		for(var i=0; i<Auxiliar.length;i++){
 			row=document.createElement('tr');
 			row.className='tr-fill';
-			for(var j=0; j<matrix[i].length;j++){
+			for(var j=0; j<Auxiliar[i].length;j++){
 				let column = document.createElement('td');
-				column.innerHTML=matrix[i][j];
+				let columnText = document.createTextNode(Auxiliar[i][j]);
+				column.appendChild(columnText);
 				row.appendChild(column);		
-
-				console.log(matrix[i][j]);
+				console.log(Auxiliar[i][j]);
 			}
 			table.appendChild(row);	
 		}
+	}
+	function createTable(){
+		console.log(Auxiliar[0].length);
+		console.log(Auxiliar.length);
+		table.className='table-fill';
+		
+		/* create Items*/
+		Content();
 		if(table!=null){
+			let tableDiv = document.getElementsByClassName('tableDiv')[0];
 			tableDiv.appendChild(table);
-			}
+		}
 	}
 }
