@@ -1,31 +1,27 @@
-	html{
+html{
 	margin:0;
 	padding: 0;
 	border: 0;
 	color: white;	
 	background: darkgray;
-	width: 100%;
 	font-size:16px;
 	text-align: center;
 }
-body, .container {
-    position: absolute;
-}
-
 
 .container{
 	 width: 60%;
+	 height: 60%;
 	 background: black;
 	 border:0;
+	 position: relative;
 	 padding: 0.3%;
 	 margin: 1% auto;
-	 left:18%;
- 
+	 
 }
 
 .info{
 	width: 40%;
-	height: 22%;
+	height: auto;
 	background: midnightblue;
 	opacity:0.7;
 	padding: 4px;
@@ -67,28 +63,34 @@ h1::first-letter{
 
 .column.one_tird{ 
 	width: 33.3%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
 .column {
 	float: left;
 	display:inline-block;
 
 }
+.row{
+	height: 33%;
+}
 
 .images{
-	width: 270px;
-	height: 130px;
+	height: 100%;
 	margin: 10px 0px 0px 9px;
-
 }
 
 .spanImage{
 	background: rgba(0,0,0,0.5);
 	opacity: 0;
-	width: 270px;
-	height: 130px;	
+	width: 100%;
+	height: 100%;
+	display: inline-block;
 	position: absolute;
 	margin: 10px 0px 0px 9px;
-
+	font-size: 19px;
+	font-family:  "Arial Black";
     -webkit-transition: opacity 0.5s ease-in;
        -moz-transition: opacity 0.5s ease-in;
          -o-transition: opacity 0.5s ease-in;
@@ -101,39 +103,21 @@ h1::first-letter{
 }
 
 .imageText{
-	font-size: 19px;
-	font-family:  "Arial Black";
 	
 }
 
 @media (max-width: 800px){
-	.images{
-		width: 150px;
-		height: 80px;
-	}
 	.spanImage{
-		width: 150px;
-		height: 80px;	
-	}
-
-	.imageText{
-		font-size: 1em;
+		font-size: 0.5em;
 	}
 }
 
 @media (max-width: 1000px) and (min-width: 800px){
-	.images{
-		width: 180px;
-		height: 100px;
-	}
 	.spanImage{
-		width: 180px;
-		height: 100px;	
-	}
-
-	.imageText{
+			
 		font-size: 1em;
 	}
+
 }
 
 

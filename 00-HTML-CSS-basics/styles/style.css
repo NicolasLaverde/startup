@@ -6,6 +6,7 @@
 	border:0;
 	padding:0;
 	margin:0;
+	box-sizing: border-box;
 }
 html,body{
 	color:white;
@@ -14,15 +15,17 @@ html,body{
 	height: 100%;
 	text-align: center;
 
+
 }
 .principl{
 	width: 80%;
-	height: 80%;
+	height: 800px;
 	background: #2E2E2E;
 	margin:auto;
 	margin-top:30px;
 	padding:4px;
 	border:0;
+	position: relative;
 
 }
 .principalHeader{
@@ -36,14 +39,15 @@ html,body{
 	height: 55%;
 	padding-top:3px;
 	margin-top: 5px;
+	position: relative;
 }
 .navegation{
 	width: 25%;
 	height: 100%;
 	padding:0px;
-	margin-left: 4px;
-
-	float:left;
+	left:0.5%;
+	vertical-align: top;
+	position: absolute;
 }
 
 .principalHeader , .navegation, .aside, .sectionDiv, .footer{
@@ -52,9 +56,11 @@ html,body{
 .sectionDiv{
 	width: 45%;
 	height:100%;
+	padding-right: 10px;
+}
+.sectionDiv, div .aside, .navegation
+{
 	display: inline-block;
-	margin-left: 12px;
-	padding-right: 10px
 }
 
 
@@ -64,10 +70,11 @@ div .aside{
 	height: 100%;
 	padding:0px;
 	display: inline-block;
-	padding-left: 15px;
-	margin-left: 5px;
-	margin-right: 5px;
-	float:right;
+	
+	right: 0.5%;
+
+	vertical-align: top;
+	position: absolute;
 
 }
 
