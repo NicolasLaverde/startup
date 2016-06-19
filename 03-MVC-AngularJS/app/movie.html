@@ -1,0 +1,15 @@
+<div class='movieTittle'><h2> {{movie.tittle}}</h2></div>
+<form name='myForm' class='form'>		
+		<div class='row'><label class='subt'> ID  </label><input class='input readOnly' type='text' value='{{movie.id}}' name='movieId' readonly="readonly"/></div> 
+		<div class='row'><label class='subt'> Tittle  </label><input class='input' type='text' value='{{movie.tittle}}' ng-model='movie.tittle' name='movieTittle' required />
+		<div> 
+		<div class='row'><label class='subt'> Country  </label><input class='input' type='text' ng-model='movie.country' name='movieCountry' required /> </div>
+		<div class='row'><label class='subt'> Date   </label><input class='input' type='text' ng-model='movie.date' name='movieDate' required /> </div>
+		<div class='row'><label class='subt'> RunningTime   </label><input class='input' type='text' ng-model='movie.runningTime' name='movieRTime' required /> </div>
+		<div class='row'><label class='subt'> Language  </label><input class='input' type='text' ng-model='movie.language' name='movieLan' required /> </div>
+		<div class='row'><label class='subt'> Clasification  </label><input class='input' type='text' ng-model='movie.clasification' name='movieClas' required /> </div>
+
+		<div class='row'> <div class='buttContainer'><button class='btsave' ng-click='myForm.$valid && update()'> Save </button></div></div>
+		<br>
+</form>
+	

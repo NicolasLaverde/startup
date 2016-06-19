@@ -1,0 +1,94 @@
+{
+	"movies":[
+		{
+			"id": 1,
+			"tittle": "Finding Nemo",
+			"country" : "United States",
+			"date": "May 30 2003",
+			"runningTime": "100 Minutes",
+			"language":"English",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 2,	
+			"tittle": "monsters INC",
+			"country" : "United States",
+			"date": "jun 10 2001",
+			"runningTime": "92 Minutes",
+			"language":"English",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 3,
+			"tittle": "The Wolf of Wall Street",
+			"country" : "United States",
+			"date": "2013",
+			"runningTime": "180 Minutes",
+			"language":"English",
+			"clasification":"Restricted"
+
+		},
+		{
+			"id":4,
+			"tittle": "UP",
+			"country" : "United States",
+			"date": "2009",
+			"runningTime": "96 Minutes",
+			"language":"English",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 5,
+			"tittle": "Les intouchables",
+			"country" : "France",
+			"date": "dic 2011",
+			"runningTime": "100 Minutes",
+			"language":"French",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 6,
+			"tittle": "The Theory of Everything",
+			"country" : "United States",
+			"date": "Sept 7 2014",
+			"runningTime": "123 Minutes",
+			"language":"English",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 7,
+			"tittle": "Ratatouille",
+			"country" : "United States",
+			"date": "March 31 1999",
+			"runningTime": "136 Minutes",
+			"language":"English",
+			"clasification":"General Audiences"
+
+		},
+		{
+			"id": 8,
+			"tittle": "The Matrix",
+			"country" : "United States/Austria",
+			"date": "Jun 29 2007",
+			"runningTime": "111 Minutes",
+			"language":"English",
+			"clasification":"Parental Guidance Suggested"
+
+		},
+		{
+			"id": 9,
+			"tittle": "Grave encounters",
+			"country" : "Canada",
+			"date": "Jun 1 2011",
+			"runningTime": "95 Minutes",
+			"language":"English",
+			"clasification":"Parents Strongly Cautioned"
+
+		}
+	]
+}

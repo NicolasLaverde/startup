@@ -1,0 +1,226 @@
+html,body {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 16px;
+	
+}
+.wrapper{
+	min-height: 100%;	
+	position: relative;
+}
+
+.header{
+	height: 90px;
+	width: 100%;
+	box-shadow: 3px 2px 5px black;
+	background: #333;
+	position: fixed;
+    z-index: 1;
+
+}
+.container{
+	height: auto;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	top:100px;
+	border: 2px solid #AAA;
+	background: #BDBDBD;
+	position: relative;
+}
+.PrincipalTittle{
+	position: absolute;
+	color: white;
+	text-align: center;
+	left:42%;
+	font-family:  "New York";
+
+}
+.H1Principal{
+	font-size: 2.0em;
+}
+.subt{
+	font-size: 1.1em;
+	font-weight: bold;
+	font-style: italic;
+	color:white;
+	width: 26%;
+	display: inline-block;
+
+}
+.nav{
+	position: relative;
+	height: 40px;
+	top:40px;
+	left:12%;
+
+}
+.link, .movieLink, .movieLinks, .deleteMov, .addLink{
+	text-decoration: none;
+	text-align: center;
+}
+.link{
+	color: white;
+	font-size: 1.1em;
+	font-weight: bold;
+	background:linear-gradient(45deg, #0040FF, #BABABA);
+	height: 30px;
+	width: 160px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+ul .liLinks,.liAll{
+	list-style:none;
+}
+ul .liAll{
+	
+		
+	width: 55%;
+	height: 28px;
+	line-height: 28px;
+	margin-bottom: 8px;
+	position: relative;
+}
+.movieLink{
+	border-radius: 5px;
+	width: 60%;
+	height: 95%;
+	color: white;
+	background: linear-gradient(15deg, #0040FF, #EEEBCD);
+}
+.movieLink, .deleteMov, .link, .addLink{
+	display:inline-block;
+}
+.link:hover{
+	background:linear-gradient(45deg, #00FF00, #FFEBCD);
+	color:black;
+}
+ul .movieLink:hover{
+	background:linear-gradient(20deg, #0B3861, #00EBCD);
+}
+.deleteMov, .addLink{
+	margin-left: 10px;
+	height: 95%;
+	border-radius: 3px;
+	color:white;
+	font-size: 1.2em;
+	text-align: center;
+	line-height:26.9px;
+}
+.deleteMov{
+	width: 30%;
+	background: linear-gradient(10deg, #8A0808,white);
+
+}
+.addLink{
+	width: 18%;
+	background: linear-gradient(10deg, red,black);
+	margin-left: 22%;
+}
+
+.form{
+	width: 55%;
+	height: auto;
+	margin: 0 auto 20px auto;
+	background: #0B4C5F;
+	position: relative;
+}
+.input{
+	width: 70%;
+	border-radius: 8px;
+	text-align: center;
+}
+.readOnly{
+	background: #D8D8D8;
+	color: #A4A4A4;
+}
+.deleteMov:hover, .addLink:hover, .btsave:hover{
+	background: white;
+	color:#4CAF50;
+	box-shadow: 1px -1px 4px black;
+	text-shadow: none;
+}
+
+.row{
+	width: 100%;
+	top: 10px;
+	margin-bottom: 8px;
+	position: relative;
+	bottom: 10px;
+}
+.buttContainer{
+	width: 25%;
+	margin-left: auto;
+	position: relative;
+
+}
+.btsave{	
+	width: 60%;
+	height: 100%;
+	background: #4CAF50;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.btsave:hover{
+	color:green;
+	background: white;
+}
+.movieTittle{
+	margin:0 auto;
+	width: 40%;
+	text-shadow: 1px 2px white;
+	font-weight:bold;
+	font-style: italic;
+	text-align: center;
+
+}
+
+@media all and (min-width: 1000px) and (max-width: 1300px){
+	ul .liAll {width: 62%;}
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+	ul .liAll {width: 68%;}
+	html,body{font-size: 15px;}
+	.form {width: 60%;}
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+
+	ul .liAll {width: 80%;}
+	html,body{font-size: 14px;}	
+	.H1Principal{font-size: 1.9em}
+	.form {width: 75%;}
+
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+	ul .liAll {width: 90%;}
+	.container{width: 80%;}
+	.movieLink{width: 65%;}
+	.deleteMov{width: 23%;}
+	.H1Principal{font-size: 1.8em}
+	.PrincipalTittle{left: 33%;}
+	html,body{font-size: 13px;}
+}
+@media screen and (max-width: 400px){
+	.container{width: 90%;}
+	ul .liAll {width: 100%;}
+	.movieLink{width: 70%;}
+	.deleteMov{width: 20%;}
+	.H1Principal{font-size: 1.65em}
+	.PrincipalTittle{left: 28%;}
+	html,body{font-size: 11px;}
+}
+@media screen and (max-width: 600px){
+	.link{width: 120px;}
+	.nav{left:3%;}
+	.form {width: 90%;}
+}
+@media screen and (max-width: 1200px){
+	.subt{width: 30%;}
+	.input{width: 65%;}
+}
+@media screen and (max-width: 250px){
+html,body{font-size: 9px;}	
+}

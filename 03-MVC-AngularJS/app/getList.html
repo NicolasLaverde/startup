@@ -1,0 +1,11 @@
+<ul>
+	<li  class='liAll' ng-repeat="movie in movies">
+		<a class='movieLink'  ng-href='all/Movie/{{movie.id}}'>
+			 {{movie.tittle}}
+		</a>
+			<a class='deleteMov' ng-href='all/' ng-click='delete(movie)' >
+		Delete</a>
+	</li>
+</ul>
+
+<a class='addLink' ng-href='all/Movie/add/'> Add </a>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet"  href="styles/normalize.css">
+	<link rel="stylesheet"  href="styles/Mystyle.css">
+	<title>Angular MVC</title>
+
+	 
+</head>
+<body ng-app='myApp'>
+	
+	<header class='header'>
+		<div class='PrincipalTittle'>
+			<h1 class='H1Principal'> My Favorite Movies </h1>
+		</div>
+		<div >
+			<nav class='nav'>
+				<ul><li class='liLinks'>
+					<a class='link' href='all' >
+						 Show all movies</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+		<div  class="wrapper">
+			<div  class='container' ng-view>
+			</div>
+		</div>
+		<script  src='//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js'></script>
+    <script  src='//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js'></script>
+	<script src='scripts/main.js'></script>
+	<script src='scripts/movieConfig.js'></script>
+	<script src='scripts/connectData.js'></script>
+	<script src='scripts/AllMovies.js'></script>
+	<script src='scripts/SingleMovie.js'></script>
+	<script textype="text/javascript">
+       angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  	</script>
+	
+</body>
+</html>
