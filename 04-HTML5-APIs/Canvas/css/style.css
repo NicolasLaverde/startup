@@ -1,0 +1,29 @@
+body{
+	margin:0;
+}
+.canvas{
+	background: grey;
+}
+
+.section{
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+}
+.buttons{
+
+	width: 100px;
+	height: 40px;
+	background: #2E64FE;
+	border: 2px solid black;
+	border-radius:6px;
+}
+.btnDiv{
+	margin: 30px auto;
+	width: 60%;
+}
+.buttons:hover{
+	background: #01DFD7;
+	border: 2px solid #2E64FE;
+}

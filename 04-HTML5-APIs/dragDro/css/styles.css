@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin:0 auto;
+	height: 500px;
+	width: 85%;
+	background: grey;
+	position: relative;
+	padding-top:10%;
+}
+.form{
+
+	width: 50%;
+	height: 90%;
+	/*margin: 0 auto;*/
+	position:relative;
+	display: inline-block;
+}
+.buttons{
+	width: 100px;
+	height: 40px;
+	background: -webkit-linear-gradient(20deg,#4CAF50, white);
+	display: inline-block;
+}
+
+.buttons:hover{ background: -webkit-linear-gradient(20deg,white,#4CAF50);   }
+.content{color:white;}
+
+.dropZone{
+	border: 4px dashed #bbb;
+	-webkit-border-radius: 3px;
+		    border-radius: 3px;
+	background: white;
+	padding: 25px;
+	text-align: center;
+	font: 20pt bold 'Vollkorn';
+	height: 50%;
+	width: 45%;
+	margin-left: 2%;
+	display:inline-block;
+	vertical-align: top;
+	
+}
+textarea {
+  width: 100%;
+}
