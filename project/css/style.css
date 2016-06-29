@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background: white;
+}
+
+.MyHeader{
+	height: auto;
+	position: relative;
+	min-height: 100px;
+
+}
+.banner{
+	background: url('../images/euroBanner.jpg') no-repeat;
+	background-size: 100% 100%;
+	height: 210.4px;
+}
+.myDiv{
+	background: #35236b;
+	height: auto;
+}
+.tittle{
+	font-size: 2.3em;
+	color: white;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-top: 5px;
+	text-shadow: -1px -0.5px 0 #ccc, -1px -1px 0 #333, -1px -1.5px 0 #323232, -1px -2px 0 #444,
+	 -1px -2.5px 0 #424242, -1px -3px 1px rgba(0,0,0,.15),1.5px 2px 0 rgba(0,0,0,0.5);
+}
+.ListHeader{
+	height:100%;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.login{
+	width: 35%;
+	margin:0 0 0 auto;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.loginInputs , .loginButton{
+	border-radius: 5px;
+	border:none;
+	height: 25px;
+}
+.loginButton{
+	background: black;
+	color:white;
+	padding: 5px;
+}
+.optionsHeader{
+	display: inline-block;
+	text-align: center;
+	margin-right: 1%;
+	color:white;
+	font-size: 1.1em;
+	
+	position: relative;
+}
+.optionHead{
+	width: 100%;
+	color:inherit;
+	text-decoration: none;
+}
+.optionHead:hover{
+	color:#bb8a2d;
+}
+.dropOptionList{
+	text-align: center;
+	font-size: 0.8em;
+	border: 1px solid black;
+	width: 100%;
+	position: relative;
+}
+.dropOptionList:hover{
+	color:black;
+	font-weight: bold;
+	background-color: #8075A1;
+}
+.ListInfoLeagues{
+	display: none;
+	width: 100%;
+}
+.dropListLink{
+	text-decoration: none;
+	color: inherit;
+	width: 100%;
+	display: inline-block;
+}
+.InfoLeagues{
+	display: none;
+	background: #35236b;
+	width: 110%;
+	position: absolute;
+	margin-left: -11.3%;
+	z-index: 1;
+	
+}
+
+.optionsHeader:hover .InfoLeagues, li:hover  ul{
+	display: block;
+	list-style: none;
+}
+
+

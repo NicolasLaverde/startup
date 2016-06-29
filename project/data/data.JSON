@@ -1,0 +1,152 @@
+{
+	"Images":[
+		{
+			"name":"euroImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/424",
+			"array" : [
+				{
+					"url":"../images/euroImages/01.jpg",
+					"text": "The 2016 UEFA European Championship, commonly referred to as UEFA Euro 2016, is the 15th UEFA European Championship, the quadrennial international men's football championship of Europe organised by UEFA"
+				},
+				{
+					"url":"../images/euroImages/02.jpg",
+					"text":"The Stade de France is the national stadium of France, just north of Paris in the commune of Saint-Denis."
+
+				},
+				{
+					"url":"../images/euroImages/03.jpg",
+
+					"text":" For the first time, the European Championship final tournament is being contested by 24 teams,having been expanded from the 16-team format used since 1996"
+
+				},
+				{
+					"url":"../images/euroImages/04.jpg",
+					"text":" The 2016 UEFA European ChampionShip is currently being held in France from 10 June to 10 July 2016."
+
+				}
+				
+				
+			]
+		},
+		{
+			"name":"worldCupImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/406",
+			"array" : [
+				{
+					"url":"../images/worldCupImages/01.jpg",
+					"text":"The 2014 FIFA World Cup was the 20th FIFA World Cup, the quadrennial world championship for men's national football teams organized by FIFA."
+				},
+				{
+					"url":"../images/worldCupImages/02.jpg",
+					"text":"Germany is one of the most successful national teams in international competitions, having won a total of four World Cups (1954, 1974, 1990, 2014)"
+				},
+				{
+					"url":"../images/worldCupImages/03.jpg",
+					"text":"James Rodriguez: His Name is pronounced like HAMEES, On 11 July, he was named on the 10-man shortlist for FIFA's Golden Ball award for the tournament's best player. He then won the Golden Boot as the tournament's top goalscorer"
+				},
+				{
+					"url":"../images/worldCupImages/04.jpg",
+					"text":"The Maracanã Stadium, is a football stadium in Rio de Janeiro, Brazil. The first game of the World Cup to be held in Maracanã was a 2–1 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June. And was the house of the Final between Argentina and Germany"
+				}
+
+			]
+		}, 
+		{
+			"name":"premierLeagueImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/398",
+			"array" : [
+				{
+					"url":"../images/premierLeagueImages/01.jpg",
+					"text":"The Premier League is a corporation in which the 20 member clubs act as shareholders. Seasons run from August to May. Teams play 38 matches each (playing each team in the league twice, home and away), totalling 380 matches in the season. Most games are played on Saturday and Sunday afternoons; others during weekday evenings."
+				},
+				{
+					"url":"../images/premierLeagueImages/02.jpg",
+					"text":"Leicester won the Premier League on 2 May 2016, after Tottenham Hotspur failed to secure a win against Chelsea after only drawing the match 2–2.  On 16 May 2016, over 240,000 Leicester City fans turned out on the streets of Leicester and Victoria Park to celebrate their team's historic achievement"
+				},
+				{
+					"url":"../images/premierLeagueImages/03.jpg",
+					"text":"Wayne Mark Rooney  born on 24 October 1985, is an English professional footballer who plays for and captains both Manchester United and the England national team. He has played much of his career as a forward, but he has also been used in various midfield roles. In 2015-2016 he only scored 15 goals in 41 matches.  He has 245 goals in 513 playing for Manchester United. 4 goals less than Sir Bobby Charlton"
+				},
+				{
+					"url":"../images/premierLeagueImages/04.jpg",
+					"text":"Jamie Richard Vardy who plays for Premier League club Leicester City and the England national team can play as a striker, but can also play as a winger.  In the 2015–16 Premier League season, he scored in eleven consecutive Premier League matches, breaking Ruud van Nistelrooy's record, and was voted the Premier League Player of the Season and FWA Footballer of the Year"
+				},
+				{
+					"url":"../images/premierLeagueImages/05.jpg",
+					"text":"Manchester United won the FA Cup for a 12th time, putting them on par with Arsenal in total FA Cup wins. Despite this victory, Van Gaal was sacked as manager just two days later,[70] with José Mourinho appointed in his place on 27 May, signing a three-year contract."
+				}
+
+			]
+		},
+		{
+			"name":"BundesLigaImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/394",
+			"array" : [
+				{
+					"url":"../images/BundesLigaImages/01.jpg",
+					"text":"The Bundesliga, is a professional association football league in Germany and the football league with the highest average stadium attendance worldwide. At the top of the German football league system, the Bundesliga is Germany's primary football competition. The Bundesliga is contested by 18 teams and operates on a system of promotion and relegation with the 2. Bundesliga. "
+				},
+				{
+					"url":"../images/BundesLigaImages/02.jpg",
+					"text":"Marco Reus  is a German professional footballer who plays as an attacking midfielder, winger or striker for German club Borussia Dortmund and the Germany national team. Reus is known for his versatility, speed and technique."
+				},
+				{
+					"url":"../images/BundesLigaImages/03.jpg",
+					"text":"Arjen Robben  is a Dutch professional footballer who plays for German club Bayern Munich and is the captain of the Netherlands national team. In 2015-2016 he won the bundesLiga again. with this he completed 5th Bundesliga's tittles since he arrived in 2009"
+				},
+				{
+					"url":"../images/BundesLigaImages/04.jpg",
+					"text":"The Allianz Arena  is a football stadium in Munich, Bavaria, Germany with a 75,000 seating capacity. Widely known for its exterior of inflated ETFE plastic panels, it is the first stadium in the world with a full colour changing exterior. Located at 25 Werner-Heisenberg-Allee at the northern edge of Munich's Schwabing-Freimann borough on the Fröttmaning Heath, it is the second largest arena in Germany behind only Signal Iduna Park in Dortmund."
+				}
+
+			]
+		},
+		{
+			"name":"LigaBBVAImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/399",
+			"array" : [
+				{
+					"url":"../images/LigaBBVAImages/01.png",
+					"text":"La Primera División (First Division) de la Liga de Fútbol Profesional (LFP), commonly known in English as La Liga, is the top professional association football division of the Spanish football league system. It is officially named Liga BBVA (BBVA League) for sponsorship reasons. It is contested by 20 teams"
+				},
+				{
+					"url":"../images/LigaBBVAImages/02.jpg",
+					"text":"Cristiano Ronaldo dos Santos Aveiro plays for Spanish club Real Madrid and the Portugal national team. In La Liga, where Madrid finished second, Ronaldo went on a prolific goalscoring run towards the very end of the season. For the first time in his career, he scored five goals in one game"
+				},
+				{
+					"url":"../images/LigaBBVAImages/03.jpg",
+					"text":"Lionel Messi.. On 6 January 2016, recording Barcelona's first goal of the new year, Messi scored two goals and assisted the other two in a 4–1 derby win over Espanyol at the Camp Nou. On 17 April, Messi ended a five-match scoring drought with his 500th senior career goal for club and country in Barcelona's 2–1 home loss to Valencia."
+				},
+				{
+					"url":"../images/LigaBBVAImages/04.jpg",
+					"text":"Club Atlético de Madrid, is one of the most important teams in spain. In they last 3 seassons. The Colchonoros won 1 Liga BBVA, got 3th place and got 2 finals champions league agains Real Madrid.. Unfortunaly they lost both "
+				}
+
+			]
+		},
+		{
+			"name":"SerieATimImages",
+			"URLDATA": "http://api.football-data.org/v1/soccerseasons/401",
+			"array" : [
+				{
+					"url":"../images/SerieATimImages/01.jpg",
+					"text":"Serie A, also called Serie A TIM due to sponsorship by TIM, is a professional league competition for football clubs located at the top of the Italian football league system and has been operating for over eighty years since the 1929–30 season. It had been organized by Lega Calcio until 2010, but a new league, the Lega Serie A, was created for the 2010–11 season. "
+				},
+				{
+					"url":"../images/SerieATimImages/02.jpg",
+					"text":"Paulo Bruno Exequiel Dybala is an Argentine professional footballer who plays as a forward for Italian club Juventus and the Argentina national team. Dybala finished the season as Juventus's top scorer with 23 goals in all competitions and 19 goals in Serie A, as the club celebrated their Serie A title victory."
+				},
+				{
+					"url":"../images/SerieATimImages/03.jpg",
+					"text":"Carlos Arturo Bacca Ahumada (Spanish pronunciation: [ˈkarloz ˈβaka]; born 8 September 1986) is a Colombian professional footballer who plays for Italian club Milan and the Colombian national team as a striker. On 2 July 2015, Italian Serie A club Milan announced the signing of Bacca after activating his buyout clause of reported €30 million, subject to a medical. he Scored 20 goals in 42 matches."
+				},
+				{
+					"url":"../images/SerieATimImages/04.jpg",
+					"text":"The Stadio Giuseppe Meazza  commonly known as San Siro, is a football stadium in the San Siro district of Milan, Italy, which is the home of A.C. Milan and Inter Milan. It has an all-seater capacity of 80,018, making it one of the largest stadia in Italy, and the largest in Europe.. This Year was the home of Uefa Champions League Final"
+				}
+
+			]
+		}
+	]
+	
+}
