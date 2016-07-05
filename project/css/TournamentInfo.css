@@ -30,7 +30,7 @@
 	transition: fadein 2s ease-out;
 }
 .images{
-	width: 90%;
+	width: 100%;
 }
 .imageHidden{
 	opacity: 0;
@@ -38,22 +38,23 @@
 .InfoTournament{
 	background: #35236b;
 	border: 1px solid #D8D8D8;
-	width: 90%;
+	width: 95%;
 	margin: 10px auto;
 	height: 550px;
 }
 .PrincipalInfoTournament{
 	height: 60%;
-	width: 45%;
+	width: 35%;
 	background: rgba(21,21,21,0.1);
 	margin-left:3%;
 	vertical-align: top;
+	color:white;
 }
 .ImagesTournamentInfo{
-	width: 45%;
+	width: 55%;
 	margin-left: 5%;
 	background: rgba(50,21,21,0.1);
-	height: 80%;
+	height: 76%;
 }
 
 .headerTourInfo{
@@ -67,7 +68,57 @@
 }
 .ImageContainer{
 	margin:0 auto;
-	width: 100%;
+	width: 75%;
 	position: relative;
+}
+.fixtureTournament{
+	width: 98%;
+	margin: 15px auto;
+	min-height: 700px;
+	height: auto;
+	background: url('../images/fixturesBlue.png');
+	color: white;
+}
+
+.h2Fixture{
+	font-size: 2.0em;
+    font-family: sans-pro;
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+}
+.headerFixtures{
+	width: 90%;
+
+	margin: 0 auto;
+}
+.ItemLeagueOp{
+	display:inline-block;
+	margin-left: 5%;
+	width: 27%;
+}
+.GroupsContainer{
+	color:black;
+}
+.championsClasif{
+	background: #00FF40;
+}
+.preChampionsClasif{
+	background: #0B6121;
+	opacity: 0.7;
+}
+.nonClasific{
+	background: #585858;
+}
+.EuropeanLeagueCLasific{
+	background: #045FB4;
+}
+.Descense{
+	background: #DD0000;
+	opacity: 0.7;
+}
+.championsClasif, .preChampionsClasif, .nonClasific, .EuropeanLeagueCLasific, .Descense{
+	color:white;
 }
 

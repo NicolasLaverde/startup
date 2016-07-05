@@ -1,11 +1,70 @@
 <section class='containerSection'>
 	<header class='headerTourInfo'>
 		<h2 class='EuroSection'>
-			Euro Groups
+			{{subTit}} Clasification
 		</h2>
 	</header>
 
 	<div class='GroupsContainer'>
+
+		<div class='containerTable' ng-repeat='teamGroup in Teamgroups'>
+			<div class='groupsNames'>
+				<p class='EuroGroup'> Group {{teamGroup[0].group}}</p>
+			</div>
+			<table class='tableGroups'>
+				<thead > 
+					<tr class='headerRow'>  
+						 <td class='headerPosTD'>
+						 	Pos 
+						 </td> 
+						 <td class='headerTeamTd'>
+						    Team 
+						 </td> 
+						 <td class='headerTd' > 
+						    PlayedG 
+						</td> 
+						<td class='headerTd'>
+						    Goals 
+						 </td>
+						 <td class='headerTd'>
+						    GoalsA 
+						  </td>
+						  <td class='headerTd'>
+						    Dif-G 
+						  </td> 
+						  <td class='headerTd'>
+					    	Pts 
+					     </td>
+					</tr> 
+				</thead>
+				<tbody>
+					<tr ng-repeat="team in teamGroup">  
+						 <td class='tdTeamData'> 
+						  	    {{team.rank}} 
+						  </td> 
+						  <td class='tdTeamName'> 
+						  		<img  class='logoTeams' ng-src='{{team.crestURI}}'/> {{team.team}} 
+						  </td> 
+						  <td class='tdTeamData'>  
+						  		{{team.playedGames}} 
+						  </td>
+						  <td class='tdTeamData'>
+						        {{team.goals}} 
+						  </td> 
+						  <td class='tdTeamData'> 
+						        {{team.goalsAgainst}} 
+						  </td> 
+						  <td class='tdTeamData'>  
+						  		{{team.goalDifference}}
+						  </td> 
+						  <td class='tdTeamData'>  
+						  		{{team.points}} 
+						  </td>
+					 </tr>
+				</tbody>
+
+			</table>
+		</div>
 	</div>
 
 </section>

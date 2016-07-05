@@ -1,0 +1,112 @@
+.teamsData{
+	width: 95%;
+	min-height: 800px;
+	background: #303030;
+	margin: 15px auto;
+	padding-bottom: 10px;
+}
+.tittleTeams{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+.teamsSUB{
+	color: white;
+	font-family: sans-pro;
+	font-size: 1.9em;
+}
+.teamsItem{
+	color:white;
+	height: 3.9%;
+	margin-bottom: 10px;
+
+}
+.linksTeams, .linkChooserTeams{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	font-family: sans-pro;
+	overflow: hidden;
+	color:inherit;
+	text-decoration: none;	
+}
+.linksTeams{
+	font-size: 1.6em;
+}
+
+.logo{
+	height: 80%;
+}
+
+
+.linksTeams:hover{
+	background: grey;
+}
+
+.teamsTable{
+	width: 70%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+.FlagSection, .principalInfoTeam{
+	width: 47%;
+}
+.FlagSection{
+	height: 90%;
+	margin : 0;
+}
+.flagTeams{
+	width: 90%;
+	height: 100%;
+}
+.principalInfoTeam {
+    vertical-align: top;
+    height: 140px;
+    margin-top: 80px;
+    color:white;
+}
+.principalInfoTeam,.FlagSection{
+	display: inline-block;
+}
+.subTit{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.propertyTeam{
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 100%;
+	font-size: 1em;
+}
+.playerInfo{
+	display: inline-block;
+}
+.playersList{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.TeamData{
+	height: 350px;
+	margin-bottom: 30px;
+}
+.headersTable{
+	background: #0174DF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.15em;
+}
+.PlayerAttributesOdd{
+	background: white;
+}
+.PlayerAttributesEven{
+	background: #E6E6E6;
+}
+.PlayerAttributesEven, .PlayerAttributesOdd{
+	color:black;
+	font-size: 0.95em;
+}
+.numPlayers{
+	text-align: center;
+}

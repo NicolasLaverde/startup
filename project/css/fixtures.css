@@ -1,0 +1,48 @@
+.teamChooser{
+	width: 98%;
+    height: 280px;
+    background: #141414;
+    margin: 5px auto;
+    position: relative;
+}
+.teamChooserUnit{
+	display: inline-block;
+	width: 9.09%;
+   	height: 31%;
+   	margin-top: 5px;
+
+}
+.teamsList, .listTeamChFixt{
+	list-style: none;
+	color:white;
+	margin:10px auto;
+}
+
+.listTeamChFixt{
+	height: 100%;
+	width: 100%;
+}
+.linkChooserTeams{
+	height: 100%;
+}
+.linkChooserTeams:hover{
+	color:#007cba;
+}
+.logoChoser{
+	height: 100%;
+    width: 100%;
+}
+.iconTeam{
+    display: block;   
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+
+}
+.nameteamCh {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: sans-pro;
+    font-size: 0.9em;
+}

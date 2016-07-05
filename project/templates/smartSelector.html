@@ -1,0 +1,16 @@
+<div class='teamChooser' team='$ctrl.teamName'>
+	<ul class='listTeamChFixt'>
+		<li  class='teamChooserUnit' ng-repeat='team in $ctrl.teams'>
+		<a class='linkChooserTeams' ng-href='{{$ctrl.URL}}{{$ctrl.idLeague}}_{{team.id}}'>	
+				<span class='iconTeam'>
+					<img class='logoChoser' ng-src='{{team.crestUrl}}'/> 
+				</span>
+				<span class='nameteamCh' >
+					{{team.name}}
+				</span>
+			</a>
+			
+		</li>
+	</ul>
+</div>
+

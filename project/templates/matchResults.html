@@ -1,0 +1,28 @@
+<table class='matchesResultList'>
+	<tbody>
+		<tr class='trMatch' ng-repeat="match in $ctrl.matches | filter: $ctrl.search ">
+			<td>
+				<image-logo  allteams="$ctrl.teams" matchdata="{team:match.homeTeamName}" > </image-logo>
+			</td>
+			<td>
+			 	{{match.homeTeamName}} 
+			 </td>
+			 <td>
+			 	{{match.result.goalsHomeTeam}}
+			 </td>
+			  <td>-</td>
+			  <td> 
+			  	{{match.result.goalsAwayTeam}}
+			  </td>
+			  <td class='tdResultAwayteam'>
+			  {{match.awayTeamName}} 
+			  </td>
+			  <td>
+			 	<image-logo matches='$ctrl.matches' allteams="$ctrl.teams" matchdata="{team:match.awayTeamName}" ></image-logo> 
+			 </td>
+			 <td>
+			 	<date-formated date='{datematch:match.date}'> </date-formated>
+			 </td>
+		 </tr>
+	</tbody>
+</table>

@@ -1,4 +1,4 @@
-<section class='InfoTournament'>
+	<section class='InfoTournament'>
 	<header class='headerTourInfo'>
 		<h2 class='HeaderTournament'>
 			{{caption}}
@@ -6,12 +6,33 @@
 	</header>
 
 	<article class='PrincipalInfoTournament'>
-		<p class='TournamentInfoItem'> <span class='nameSub'>Number of Games: </span> {{numberOfGames}}</p> 
-		<p class='TournamentInfoItem'> <span class='nameSub'>Number of Teams: </span> {{numberOfTeams}}</p> 
-		<p class='TournamentInfoItem'> <span class='nameSub'>Year of current Event: </span> {{year}}</p> 
-		<p class='TournamentInfoItem'> <span class='nameSub'>Updated on: </span> {{lastUpdated}}</p> 
-		
+		<section class='PrincipalInfo'>
+			<p class='TournamentInfoItem'> <span class='nameSub'>Number of Games: </span> {{numberOfGames}}</p> 
+			<p class='TournamentInfoItem'> <span class='nameSub'>Number of Teams: </span> {{numberOfTeams}}</p> 
+			<p class='TournamentInfoItem'> <span class='nameSub'>Year of current Event: </span> {{year}}</p> 
+			<p class='TournamentInfoItem'> <span class='nameSub'>Updated on: </span> {{lastUpdated}}</p> 
+		</section>
+		<section class='principalEPFLItems'>
+			<span class='servicesContainer'>
+				<h3 class='h3Tittle'>
+					Tournament's Services
+				</h3>
+			</span>
+			<hr/>
+			<ul class='leaguesListOptions'>
+				<li class='ItemLeagueOp'> 
+					<a class='linkLeaguesOp' ng-href='TournamentInfo/groups/{{URL}}'> Groups </a>
+				</li>
+				<li class='ItemLeagueOp'> 
+					<a class='linkLeaguesOp' ng-href='TournamentInfo/teams/{{URL}}'> Teams </a>
+				</li>
+				<li class='ItemLeagueOp'> 
+					<a class='linkLeaguesOp' ng-href='TournamentInfo/fixtures/{{URL}}'> Fixtures </a>
+				</li>
+			</ul>
+		</section>
 	</article>
+
 	<div class='ImagesTournamentInfo'>
 		<div class='ImageContainer'>
 			<img id='images' class='images imageHidden fadeIn' />

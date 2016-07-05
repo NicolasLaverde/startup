@@ -1,0 +1,24 @@
+<section>
+	<header class='tittleTeams'>
+		<h3 class='teamsSUB'>
+			{{$ctrl.team.name}}
+		</h3>
+	</header>
+	<article class='TeamData'>
+		<figure class='FlagSection'>
+			<img class='flagTeams' ng-src='{{$ctrl.team.crestUrl}}'>
+		</figure>
+		<div class='principalInfoTeam'>
+				<p class='propertyTeam'> <span class='subTit'>Code:</span> {{$ctrl.team.code}}</p>
+				<p class='propertyTeam'> <span class='subTit'>Official Name:</span> {{$ctrl.team.name}}</p>
+				<p class='propertyTeam'> <span class='subTit'>shortName:</span> {{$ctrl.team.shortName}}</p>
+				<p class='propertyTeam'> <span class='subTit'>marcket value:</span> {{$ctrl.team.squadMarketValue}}</p>
+		</div>
+	<hr>
+	</article>
+
+	<article class='Players'>
+		<players-info fixtures="$ctrl.fixtures" team="$ctrl.team" nombres="$ctrl.nombres" equipo="$ctrl.team"></players-info>
+		
+	</article>
+</section>

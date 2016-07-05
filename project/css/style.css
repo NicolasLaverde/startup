@@ -1,3 +1,7 @@
+@font-face {
+    font-family: sans-pro;
+    src: url(../fonts/sanspro.ttf);
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -6,6 +10,8 @@
 body{
 	font-size: 16px;
 	background: white;
+	font-family: sans-pro;
+	color:white;
 }
 
 .MyHeader{
@@ -29,6 +35,9 @@ body{
 	text-align: center;
 	margin-bottom: 15px;
 	padding-top: 5px;
+	
+}
+.h2Fixture, .tittle{
 	text-shadow: -1px -0.5px 0 #ccc, -1px -1px 0 #333, -1px -1.5px 0 #323232, -1px -2px 0 #444,
 	 -1px -2.5px 0 #424242, -1px -3px 1px rgba(0,0,0,.15),1.5px 2px 0 rgba(0,0,0,0.5);
 }
@@ -70,7 +79,7 @@ body{
 	color:inherit;
 	text-decoration: none;
 }
-.optionHead:hover{
+.optionHead:hover , .linkLeaguesOp:hover{
 	color:#bb8a2d;
 }
 .dropOptionList{
@@ -109,5 +118,101 @@ body{
 	display: block;
 	list-style: none;
 }
+.mainFooter{
+	min-height: 100px;
+	width: 100%;
+	height: 170px;
+	vertical-align: bottom;
+	position: relative;
+}
+.footerLinks{
+	background: #131313;
+	width: 100%;
+	height: 70%;
+}
+.footerCredits
+{
+	background: black;
+	height: 30%;
+}
+.initialContent{
+	width: 100%;
+	height: 650px;
+}
+.icon {
+    background: url(http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons.svg?160422) no-repeat;
 
+    
+}
+.icons{
+	display: block;
+    height: 100%;
+    width: 100%;
+	background-size: 100% 100%;
+}
+.faceIcon{
+	background: url('../icons/facebook.png') no-repeat;
+	background-size: 100% 100%;	
+}
+.instaIcon{
+	background: url('../icons/instagram.png') no-repeat;
+	background-size: 100% 100%;
+	
+}
+.youtubeIcon{
+	background: url('../icons/youtube.png') no-repeat;
+	background-size: 100% 100%;
+	
+}
+.pinterestIcon{
+	background: url('../icons/pinterest.png') no-repeat;
+	background-size: 100% 100%;
+}
 
+.gmailIcon{
+	background: url('../icons/gmail.png') no-repeat;
+	background-size: 100% 100%;
+}
+.linksItemFooter{
+	display: inline-block;
+    height: 100%;
+    width: 16%;
+    position: relative;
+}
+.iconTag{
+	height: 100%;
+    border-radius: 50%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background: white;
+}
+.iconTag:hover{
+	background: #BBD;
+}
+.listFooterLinks{
+	height: 70%;
+    width: 39%;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+}
+.credits
+{
+	text-align: center;
+    display: block;
+    padding-top: 25px;
+    font-size: 0.85em;
+    color:#BBB;
+}
+.mainImage{
+	width: 80%;
+	height: 95%;
+	margin-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.zlatanImage{
+	width: 100%;
+	height: 100%;
+}

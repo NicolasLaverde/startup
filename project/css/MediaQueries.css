@@ -1,24 +1,85 @@
-@media screen and (max-width: 1200px) and (min-width: 1000px){
-	.login{width: 41.5%;}
+@media screen and (max-width: 900px){
+	.teamChooserUnit{
+		width: 12.35%;
+		height: 30%;
+		margin-top: 2px;
+	}
+	.nameteamCh{
+		font-size: 0.8em;
+	}
+} 
+@media screen and (max-width: 1000px) and (min-width: 800px){
+	body{
+		font-size: 15.5px;
+		} 
+	.banner{
+		height: 190.4px;
+	} 
+	.login{
+		width: 41.5%;
+	}
+	.loginInputs{
+		width: 39%;
+		font-size: 0.8em;
+	} 
+	.ItemLeagueOp{
+		font-size: 0.95em;
+	}
+	.listFooterLinks{
+		width: 50%;
+	}
 }
-@media screen and (max-width: 1000px) and (min-width: 800px){body{font-size: 15.5px;} .banner{height: 190.4px;} 
-.login{width: 41.5%;}.loginInputs{width: 39%; font-size: 0.8em;}}
 @media screen and (max-width: 800px) and (min-width: 700px){
-	body{font-size: 15.0px;}
-	.banner{height: 175.4px;}
-	.nameSub{font-size: 1em;}
+	body{
+		font-size: 15.0px;
+	}
+	.banner{
+		height: 175.4px;
+	}
+	.nameSub{
+		font-size: 1em;
+	}
+	.ItemLeagueOp{
+		margin-left: 5.1%; font-size: 0.90em;
+	}
 }
 @media screen and (max-width: 700px) and (min-width: 600px){
-	body{font-size: 14.0px;}
-	.banner{height: 161px;}
-	.HeaderTournament{ font-size: 1.9em;text-shadow: 2px 2px 4px black;
-}
+	body{
+		font-size: 14.0px;
+	}
+	.banner{
+		height: 161px;
+	}
+	.HeaderTournament{ 
+		font-size: 1.9em;
+		text-shadow: 2px 2px 4px black;
+	}
 }
 @media screen and (max-width: 800px) and (min-width: 600px){
-	.login{width: 47.5%;}.loginInputs{width: 38%;} .loginButton,.loginInputs{font-size: 0.8em;}
+	.login{
+		width: 47.5%;
+		}
+	.loginInputs{
+		width: 38%;} .loginButton,.loginInputs{font-size: 0.8em;} .nameSub{font-size: 1.14em}
+	.TournamentInfoItem{font-size: 1.0em; }
+	.listFooterLinks{
+		width: 55%;
+	}
 }
-@media screen and (max-width: 600px){body{font-size: 13px;} .optionsHeader{font-size: 1em;} .tittle{font-size: 2.1em;}
-.login{width: 58.1%;}.loginInputs{width: 36%;} .loginButton,.loginInputs{font-size: 0.8em;} .banner{height: 150px;}
-		.HeaderTournament{ font-size: 1.6em;text-shadow: 2px 2px 4px black;}}
+@media screen and (max-width: 600px){body{font-size: 13px;} 
+.optionsHeader{font-size: 1em;} 
+.tittle{font-size: 2.1em;}
+.login{width: 58.1%;}
+.loginInputs{width: 36%;}
+.loginButton,.loginInputs{font-size: 0.8em;} 
+.banner{height: 150px;}
+.listFooterLinks{ width: 70%
+}
+}
+		.HeaderTournament{ font-size: 1.6em;text-shadow: 2px 2px 4px black;} .nameSub{font-size: 1.06em} .TournamentInfoItem{font-size: 0.95em; }}
 @media screen and (max-width: 500px){ .optionsHeader{font-size: 0.9em;}.banner{height: 140px;}}
-@media screen and (max-width: 440px){ .optionsHeader{font-size: 0.8em;margin-right: 0.5%} .tittle{font-size: 2.0em;}.banner{height: 120px;}}
+@media screen and (max-width: 440px){ .optionsHeader{font-size: 0.8em;margin-right: 0.5%} .tittle{font-size: 2.0em;}.banner{height: 120px;} .ItemLeagueOp{width: 100%; text-align: center}
+.principalEPFLItems{height: 37%;}}
+@media screen and (max-width: 700px){
+	.ItemLeagueOp{margin-left: 2.1%; font-size: 0.8em;} .leaguesListOptions{margin-top: 5px;}
+}

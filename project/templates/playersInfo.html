@@ -1,0 +1,53 @@
+<header>
+		<h4 class='InfoPlayers'>
+			Players 
+		</h4>
+	</header>
+<table class='teamsTable'>
+	<thead >
+		<tr class='headersTable'>
+			<td>
+				Name
+			</td>
+			<td>
+				Nationality
+			</td>
+			<td>
+				Birth
+			</td>
+			<td>
+				Position
+			</td>
+			<td>
+				Dorsal Number
+			</td>
+			<td>
+				Contract
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+
+			<tr  ng-repeat='player in $ctrl.players' ng-class-odd="'PlayerAttributesOdd'" ng-class-even="'PlayerAttributesEven'">
+				<td>
+					 {{player.name}}
+				</td>
+				<td>
+					 {{player.nationality}}
+				</td>
+				<td>
+					{{player.dateOfBirth}}
+				</td>
+				<td>
+					 {{player.position}}
+				</td>
+				<td>
+					 {{player.jerseyNumber}}
+				</td>
+				<td>
+					{{player.contractUntil}}
+				</td>
+			</tr>
+	</tbody>		
+</table>
+<span class='numPlayers'><p> Number of players : {{$ctrl.numPlayers}}</p></span>

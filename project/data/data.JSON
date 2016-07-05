@@ -1,8 +1,9 @@
 {
-	"Images":[
+	"Leagues":[
 		{
 			"name":"euroImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/424",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/424",
+			"id":"424",
 			"array" : [
 				{
 					"url":"../images/euroImages/01.jpg",
@@ -29,23 +30,37 @@
 			]
 		},
 		{
-			"name":"worldCupImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/406",
+			"name":"ChampionsLeague",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/405",
+			"id":"405",
 			"array" : [
 				{
-					"url":"../images/worldCupImages/01.jpg",
+					"url":"../images/championsLeague/01.jpg",
 					"text":"The 2014 FIFA World Cup was the 20th FIFA World Cup, the quadrennial world championship for men's national football teams organized by FIFA."
 				},
 				{
-					"url":"../images/worldCupImages/02.jpg",
+					"url":"../images/championsLeague/02.jpg",
 					"text":"Germany is one of the most successful national teams in international competitions, having won a total of four World Cups (1954, 1974, 1990, 2014)"
 				},
 				{
-					"url":"../images/worldCupImages/03.jpg",
+					"url":"../images/championsLeague/03.jpg",
 					"text":"James Rodriguez: His Name is pronounced like HAMEES, On 11 July, he was named on the 10-man shortlist for FIFA's Golden Ball award for the tournament's best player. He then won the Golden Boot as the tournament's top goalscorer"
 				},
+								{
+					"url":"../images/championsLeague/04.jpg",
+					"text":"James Rodriguez: His Name is pronounced like HAMEES, On 11 July, he was named on the 10-man shortlist for FIFA's Golden Ball award for the tournament's best player. He then won the Golden Boot as the tournament's top goalscorer"
+				},
+
 				{
-					"url":"../images/worldCupImages/04.jpg",
+					"url":"../images/championsLeague/05.jpg",
+					"text":"The Maracanã Stadium, is a football stadium in Rio de Janeiro, Brazil. The first game of the World Cup to be held in Maracanã was a 2–1 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June. And was the house of the Final between Argentina and Germany"
+				},
+				{
+					"url":"../images/championsLeague/06.jpg",
+					"text":"The Maracanã Stadium, is a football stadium in Rio de Janeiro, Brazil. The first game of the World Cup to be held in Maracanã was a 2–1 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June. And was the house of the Final between Argentina and Germany"
+				},
+				{
+					"url":"../images/championsLeague/07.jpg",
 					"text":"The Maracanã Stadium, is a football stadium in Rio de Janeiro, Brazil. The first game of the World Cup to be held in Maracanã was a 2–1 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June. And was the house of the Final between Argentina and Germany"
 				}
 
@@ -53,7 +68,8 @@
 		}, 
 		{
 			"name":"premierLeagueImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/398",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/398",
+			"id":"398",
 			"array" : [
 				{
 					"url":"../images/premierLeagueImages/01.jpg",
@@ -80,7 +96,8 @@
 		},
 		{
 			"name":"BundesLigaImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/394",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/394",
+			"id":"394",
 			"array" : [
 				{
 					"url":"../images/BundesLigaImages/01.jpg",
@@ -103,7 +120,8 @@
 		},
 		{
 			"name":"LigaBBVAImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/399",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/399",
+			"id":"399",
 			"array" : [
 				{
 					"url":"../images/LigaBBVAImages/01.png",
@@ -126,7 +144,8 @@
 		},
 		{
 			"name":"SerieATimImages",
-			"URLDATA": "http://api.football-data.org/v1/soccerseasons/401",
+			"URLAPI": "http://api.football-data.org/v1/soccerseasons/401",
+			"id":"401",
 			"array" : [
 				{
 					"url":"../images/SerieATimImages/01.jpg",

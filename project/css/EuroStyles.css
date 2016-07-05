@@ -1,20 +1,17 @@
 .containerSection{
-	min-height: 800px;
+	min-height: 700px;
 	width: 90%;
 	margin: 2px auto;
-	background: url('http://img.uefa.com/imgml/comp/euro2016/newbrand/fanzone/bg_fanzone.jpg');
+	background: url('../images/groups.jpg');
 }
 .EuroSection{
-	color:black;
 	font-size: 2.22em;
 	text-align: center;
 	text-shadow: 1.5px 1.5px 2px black;	
-	font-family: 'pf beau sans pro';
 }
 .tableGroups{
 	border-collapse: collapse;
-	width: 85%;
-	margin:0 auto;
+	width: 100%;
 	position: relative;
 }
 .headerRow{
@@ -26,9 +23,90 @@
 	font-weight: bold;
 	text-align: center;
 }
+.headerPosTD{
+	width: 7%;
+	text-align: center;
+}
 .headerTd{
-	width: 13%;
+	width: 9.5%;
 }
 .headerTeamTd{
 	width: 28%;
 }
+.divGroupsTournament{
+	width: 90%;
+	margin: 0 auto 20px auto;
+	position: relative;
+}
+.h3Groups, .h3Tittle, .EuroGroup{
+    line-height: 1;
+    font-style: normal;
+    font-size: 1.4em;
+    text-align: center;
+}
+.h3Tittle {
+	color:white;
+	font-family: sans-pro;
+}
+.groupsNames{
+	width: 100%;
+	margin:15px 0;
+}
+.EuroSection, .h3Groups, .EuroGroup{
+	color: #08315c;
+	font-family: sans-pro;
+}
+.logoTeams{
+	width: 25px;
+	height: 25px;
+}
+.tdTeamName{
+	text-align: left;
+}
+.tdTeamData{
+	text-align: center;
+}
+.principalEPFLItems{
+	width: 95%;
+	height: 30%;
+	background: black;
+	margin: 20px auto;
+	color:inherit;
+}
+.leaguesListOptions{
+	margin-top: 25px;
+	list-style: none;
+}
+.linkLeaguesOp{
+	color:inherit;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.servicesContainer{
+	display: inline-block;
+	margin:10px auto 15px auto;
+	width: 100%;
+
+}
+.PrincipalInfo{
+	width: 75%;
+	margin:15% auto;
+}
+.matchesResultList{
+	width: 55%;
+	margin:0 auto;
+	list-style: none;
+}
+.tdResultAwayteam{
+	text-align: right;
+}
+.trMatch{
+	width: 100%;
+	height: 50px;
+}
+.InfoPlayers{
+	font-size: 1.3em;
+	text-align: center;
+}
+
