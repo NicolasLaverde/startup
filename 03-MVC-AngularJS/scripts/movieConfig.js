@@ -1,8 +1,6 @@
-
 angular.module('myApp').config(['$routeProvider', '$locationProvider',
     function($routeProvider, $locationProvider) {
 
-      console.log('care pene');
       $routeProvider
         .when('/all', {
           templateUrl: '../app/getList.html',

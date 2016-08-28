@@ -24,6 +24,7 @@ window.onload=function(){
 				let actorName = document.getElementById('actorName');
 				let age= document.getElementById('age');
 				if(actorName!='' && age!=''){
+					//actor's vector
 					actors.push(new Actor(actorName.value,age.value));
 					actorName.value='';
 					age.value='';
@@ -56,9 +57,7 @@ window.onload=function(){
 		
 		let returnVal= '<ul>';
 
-		console.log(actors);
 		for(var k in actors){
-			console.log('entro aca');
 			returnVal+='<li> <span class=\'subTitteSpan\'> Name: </span>' + actors[k].name + '<span class=\'subTitteSpan\'> Age: </span>' + actors[k].age +' </li>';
 		}
 

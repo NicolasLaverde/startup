@@ -35,8 +35,9 @@ module.controller('MyController',['$scope','GetDataBase',function($scope,MyFacto
 }]);
 
 module.controller('TournamentInfo', ['$scope','GetDataBase','$routeParams',function($scope,GetDataBase,$routeParams){
-	/*Assign values to show info tournament in visual layer, receives an URL data API*/
 	function infoTournament(URL){
+
+		console.log('Hola mundo');
 		GetDataBase.get(2,URL).then(function(data2){
 			return data2;
 		}).then(function(data){

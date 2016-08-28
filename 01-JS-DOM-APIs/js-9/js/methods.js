@@ -30,13 +30,13 @@ window.onload=function(){
 		let ol =document.createElement('ol');
 		let section = document.getElementById('sectionJson');
 		removeAllChilds('sectionJson');
+		console.log(AjaxReq(obj));
 		AjaxReq(obj)
 		.then(function(text){
 			if(text.length!==0){
 
 				console.log(text.length);
 				for(var i=0; i<text.length;i++){
-					console.log(i);
 					var li = document.createElement('li');
 				 
 				 li.appendChild(document.createTextNode(text[i].full_name));
